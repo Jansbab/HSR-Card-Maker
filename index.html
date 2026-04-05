@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="p-3 bg-dark text-white text-center neon-header">
+    <h1>Honkai: Star Rail | Card Maker</h1>
+</header>
+<section class="repo-banner" aria-label="Project info">
+    For more information, updates, and source code, visit my
+    <a href="https://github.com/user/repo" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+</section>
+<main class="app-main">
+    <div class="container my-4 d-flex justify-content-center gap-3 controls-bar">
+        <input type="file" style="display: none" id="configFileInput" accept=".json,application/json"/>
+        <button id="import" class="button-64">
+            <span class="text">Import Config</span>
+        </button>
+    </div>
+    <div class="container search-wrap">
+        <input id="searchInput" class="form-control p-3" type="text" placeholder="Search a character"
+               autocomplete="off" aria-autocomplete="list" aria-haspopup="true" aria-label="Search character by name or ID">
+        <div id="searchResults" class="autocomplete-results" aria-label="Search results"></div>
+    </div>
+
+    <div class="container my-4 d-flex justify-content-center gap-3 card-list-wrap">
+        <div id="cardContainer" class="d-flex flex-wrap justify-content-center gap-4">
+            <!-- Character cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <div class="container my-4 d-flex justify-content-center showcase-stage">
+        <div id="selectedCardWrapper" class="d-flex justify-content-center w-100">
+            <section id="selectedCard" class="selected-card" aria-live="polite" tabindex="-1">
+                <div class="showcase-left">
+                    <div class="selected-image" aria-hidden="true"></div>
+                </div>
+                <div class="showcase-right">
+                    <div class="showcase-block">
+                        <h3 id="selectedName">Select a character to preview</h3>
+                        <p id="selectedDesc" class="small text-white-50">Click a card to see full showcase details.</p>
+                        <div class="stats-grid" id="characterStats">
+                            <div class="stat-item"><span>HP</span><strong id="statHp">--</strong></div>
+                            <div class="stat-item"><span>ATK</span><strong id="statAtk">--</strong></div>
+                            <div class="stat-item"><span>DEF</span><strong id="statDef">--</strong></div>
+                            <div class="stat-item"><span>SPD</span><strong id="statSpd">--</strong></div>
+                            <div class="stat-item"><span>CRIT Rate</span><strong id="statCr">--</strong></div>
+                            <div class="stat-item"><span>CRIT DMG</span><strong id="statCd">--</strong></div>
+                            <div class="stat-item"><span>Effect HIT Rate</span><strong id="statEhr">--</strong></div>
+                            <div class="stat-item"><span>Effect RES</span><strong id="statRes">--</strong></div>
+                            <div class="stat-item"><span>Break Effect</span><strong id="statBe">--</strong></div>
+                        </div>
+                    </div>
+
+                    <div class="showcase-block">
+                        <h4 class="mb-2">Light Cone</h4>
+                        <div class="lightcone-row">
+                            <img id="selectedLightconeImage" src="Assets/icon/None.png"
+                                 alt="Light cone"/>
+                            <div>
+                                <div id="selectedLightconeName" class="fw-semibold">--</div>
+                                <div class="small text-white-50" id="selectedLightconeStats">HP -- | ATK -- | DEF --
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase-block">
+                        <h4 class="mb-2">Relics</h4>
+                        <div id="selectedRelics" class="relics-grid"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-end gap-3 download-row">
+        <div class="export-options">
+            <label for="downloadPreset" class="export-options-label">Export preset</label>
+            <select id="downloadPreset" class="export-select" aria-label="Export preset">
+                <option value="balanced" selected>Balanced</option>
+                <option value="lightcone">Light Cone Focus</option>
+            </select>
+        </div>
+        <div class="export-options">
+            <label for="downloadViewport" class="export-options-label">Screen layout</label>
+            <select id="downloadViewport" class="export-select" aria-label="Export screen layout">
+                <option value="large" selected>Large Screen</option>
+                <option value="small">Small Screen</option>
+            </select>
+        </div>
+        <button id="download" class="button-64">
+            <span class="text">Download Image</span>
+        </button>
+    </div>
+</main>
+
+<footer class="app-footer" aria-label="Copyright notice">
+    <small>
+        Unofficial fan-made project. Honkai: Star Rail, images, text, and related assets are property of HoYoverse.<br>
+        This website is not affiliated with or endorsed by HoYoverse.
+    </small>
+</footer>
+
+<script src="Scripts/relics.js"></script>
+<script src="Scripts/import.js"></script>
+<script src="Scripts/calculation.js"></script>
+<script src="Scripts/data.js"></script>
+<script src="Scripts/search.js"></script>
+<script src="Scripts/cards.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@3.5.0/dist/dom-to-image-more.min.js"></script>
+<script src="Scripts/download.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

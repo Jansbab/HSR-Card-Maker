@@ -1,0 +1,41 @@
+﻿{
+  "main_stat_values": {
+    "5star": {
+      "HP":                    { "base": 112.896,  "per_lv": 39.5136,  "max": 705.6     },
+      "ATK":                   { "base": 56.448,   "per_lv": 19.7568,  "max": 352.8     },
+      "HP%":                   { "base": 6.912,    "per_lv": 2.4192,   "max": 43.2      },
+      "ATK%":                  { "base": 6.912,    "per_lv": 2.4192,   "max": 43.2      },
+      "DEF%":                  { "base": 8.64,     "per_lv": 3.024,    "max": 54.0      },
+      "Crit Rate":             { "base": 5.184,    "per_lv": 1.8144,   "max": 32.4      },
+      "Crit DMG":              { "base": 10.368,   "per_lv": 3.6288,   "max": 64.8      },
+      "Effect HIT Rate":       { "base": 6.912,    "per_lv": 2.4192,   "max": 43.2      },
+      "Outgoing Healing":      { "base": 5.5296,   "per_lv": 1.9354,   "max": 34.5606   },
+      "Break Effect":          { "base": 10.368,   "per_lv": 3.6277,   "max": 64.8      },
+      "Energy Regen Rate":     { "base": 3.1104,   "per_lv": 1.0886,   "max": 19.4394   },
+      "Speed":                 { "base": 4.032,    "per_lv": 1.4,      "max": 25.032    },
+      "Physical DMG":          { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   },
+      "Fire DMG":              { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   },
+      "Ice DMG":               { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   },
+      "Wind DMG":              { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   },
+      "Lightning DMG":         { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   },
+      "Quantum DMG":           { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   },
+      "Imaginary DMG":         { "base": 6.2208,   "per_lv": 2.1773,   "max": 38.8803   }
+    }
+  },
+  "substat_values": {
+    "5star": {
+      "HP":             { "low": 33.87,   "mid": 38.10,  "high": 42.34  },
+      "ATK":            { "low": 16.935,  "mid": 19.05,  "high": 21.17  },
+      "DEF":            { "low": 16.935,  "mid": 19.05,  "high": 21.17  },
+      "HP%":            { "low": 3.456,   "mid": 3.888,  "high": 4.32   },
+      "ATK%":           { "low": 3.456,   "mid": 3.888,  "high": 4.32   },
+      "DEF%":           { "low": 4.32,    "mid": 4.86,   "high": 5.4    },
+      "Crit Rate%":     { "low": 2.592,   "mid": 2.916,  "high": 3.24   },
+      "Crit DMG%":      { "low": 5.184,   "mid": 5.832,  "high": 6.48   },
+      "Speed":          { "low": 2.0,     "mid": 2.3,    "high": 2.6    },
+      "Effect HIT%":    { "low": 3.456,   "mid": 3.888,  "high": 4.32   },
+      "Effect RES%":    { "low": 3.456,   "mid": 3.888,  "high": 4.32   },
+      "Break Effect%":  { "low": 5.184,   "mid": 5.832,  "high": 6.48   }
+    }
+  }
+}

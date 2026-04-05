@@ -1,0 +1,649 @@
+﻿{
+  "lightcones": [
+    {
+      "id": 20000,
+      "name": "Arrows"
+    },
+    {
+      "id": 20001,
+      "name": "Cornucopia"
+    },
+    {
+      "id": 20002,
+      "name": "Collapsing Sky"
+    },
+    {
+      "id": 20003,
+      "name": "Amber"
+    },
+    {
+      "id": 20004,
+      "name": "Void"
+    },
+    {
+      "id": 20005,
+      "name": "Chorus"
+    },
+    {
+      "id": 20006,
+      "name": "Data Bank"
+    },
+    {
+      "id": 20007,
+      "name": "Darting Arrow"
+    },
+    {
+      "id": 20008,
+      "name": "Fine Fruit"
+    },
+    {
+      "id": 20009,
+      "name": "Shattered Home"
+    },
+    {
+      "id": 20010,
+      "name": "Defense"
+    },
+    {
+      "id": 20011,
+      "name": "Loop"
+    },
+    {
+      "id": 20012,
+      "name": "Meshing Cogs"
+    },
+    {
+      "id": 20013,
+      "name": "Passkey"
+    },
+    {
+      "id": 20014,
+      "name": "Adversarial"
+    },
+    {
+      "id": 20015,
+      "name": "Multiplication"
+    },
+    {
+      "id": 20016,
+      "name": "Mutual Demise"
+    },
+    {
+      "id": 20017,
+      "name": "Pioneering"
+    },
+    {
+      "id": 20018,
+      "name": "Hidden Shadow"
+    },
+    {
+      "id": 20019,
+      "name": "Mediation"
+    },
+    {
+      "id": 20020,
+      "name": "Sagacity"
+    },
+    {
+      "id": 20021,
+      "name": "Shadowburn"
+    },
+    {
+      "id": 20022,
+      "name": "Reminiscence"
+    },
+    {
+      "id": 20023,
+      "name": "Sneering"
+    },
+    {
+      "id": 20024,
+      "name": "Lingering Tear"
+    },
+    {
+      "id": 21000,
+      "name": "Post-Op Conversation"
+    },
+    {
+      "id": 21001,
+      "name": "Good Night and Sleep Well"
+    },
+    {
+      "id": 21002,
+      "name": "Day One of My New Life"
+    },
+    {
+      "id": 21003,
+      "name": "Only Silence Remains"
+    },
+    {
+      "id": 21004,
+      "name": "Memories of the Past"
+    },
+    {
+      "id": 21005,
+      "name": "The Moles Welcome You"
+    },
+    {
+      "id": 21006,
+      "name": "The Birth of the Self"
+    },
+    {
+      "id": 21007,
+      "name": "Shared Feeling"
+    },
+    {
+      "id": 21008,
+      "name": "Eyes of the Prey"
+    },
+    {
+      "id": 21009,
+      "name": "Landau's Choice"
+    },
+    {
+      "id": 21010,
+      "name": "Swordplay"
+    },
+    {
+      "id": 21011,
+      "name": "Planetary Rendezvous"
+    },
+    {
+      "id": 21012,
+      "name": "A Secret Vow"
+    },
+    {
+      "id": 21013,
+      "name": "Make the World Clamor"
+    },
+    {
+      "id": 21014,
+      "name": "Perfect Timing"
+    },
+    {
+      "id": 21015,
+      "name": "Resolution Shines As Pearls of Sweat"
+    },
+    {
+      "id": 21016,
+      "name": "Trend of the Universal Market"
+    },
+    {
+      "id": 21017,
+      "name": "Subscribe for More!"
+    },
+    {
+      "id": 21018,
+      "name": "Dance! Dance! Dance!"
+    },
+    {
+      "id": 21019,
+      "name": "Under the Blue Sky"
+    },
+    {
+      "id": 21020,
+      "name": "Geniuses' Repose"
+    },
+    {
+      "id": 21021,
+      "name": "Quid Pro Quo"
+    },
+    {
+      "id": 21022,
+      "name": "Fermata"
+    },
+    {
+      "id": 21023,
+      "name": "We Are Wildfire"
+    },
+    {
+      "id": 21024,
+      "name": "River Flows in Spring"
+    },
+    {
+      "id": 21025,
+      "name": "Past and Future"
+    },
+    {
+      "id": 21026,
+      "name": "Woof! Walk Time!"
+    },
+    {
+      "id": 21027,
+      "name": "The Seriousness of Breakfast"
+    },
+    {
+      "id": 21028,
+      "name": "Warmth Shortens Cold Nights"
+    },
+    {
+      "id": 21029,
+      "name": "We Will Meet Again"
+    },
+    {
+      "id": 21030,
+      "name": "This Is Me!"
+    },
+    {
+      "id": 21031,
+      "name": "Return to Darkness"
+    },
+    {
+      "id": 21032,
+      "name": "Carve the Moon, Weave the Clouds"
+    },
+    {
+      "id": 21033,
+      "name": "Nowhere to Run"
+    },
+    {
+      "id": 21034,
+      "name": "Today Is Another Peaceful Day"
+    },
+    {
+      "id": 21035,
+      "name": "What Is Real?"
+    },
+    {
+      "id": 21036,
+      "name": "Dreamville Adventure"
+    },
+    {
+      "id": 21037,
+      "name": "Final Victor"
+    },
+    {
+      "id": 21038,
+      "name": "Flames Afar"
+    },
+    {
+      "id": 21039,
+      "name": "Destiny's Threads Forewoven"
+    },
+    {
+      "id": 21040,
+      "name": "The Day The Cosmos Fell"
+    },
+    {
+      "id": 21041,
+      "name": "It's Showtime"
+    },
+    {
+      "id": 21042,
+      "name": "Indelible Promise"
+    },
+    {
+      "id": 21043,
+      "name": "Concert for Two"
+    },
+    {
+      "id": 21044,
+      "name": "Boundless Choreo"
+    },
+    {
+      "id": 21045,
+      "name": "After the Charmony Fall"
+    },
+    {
+      "id": 21046,
+      "name": "Poised to Bloom"
+    },
+    {
+      "id": 21047,
+      "name": "Shadowed by Night"
+    },
+    {
+      "id": 21048,
+      "name": "Dream's Montage"
+    },
+    {
+      "id": 21050,
+      "name": "Victory In a Blink"
+    },
+    {
+      "id": 21051,
+      "name": "Geniuses' Greetings"
+    },
+    {
+      "id": 21052,
+      "name": "Sweat Now, Cry Less"
+    },
+    {
+      "id": 21053,
+      "name": "Journey, Forever Peaceful"
+    },
+    {
+      "id": 21054,
+      "name": "The Story's Next Page"
+    },
+    {
+      "id": 21055,
+      "name": "Unto Tomorrow's Morrow"
+    },
+    {
+      "id": 21056,
+      "name": "In Pursuit of the Wind"
+    },
+    {
+      "id": 21057,
+      "name": "The Flower Remembers"
+    },
+    {
+      "id": 21058,
+      "name": "A Trail of Bygone Blood"
+    },
+    {
+      "id": 21060,
+      "name": "A Dream Scented in Wheat"
+    },
+    {
+      "id": 21061,
+      "name": "Holiday Thermae Escapade"
+    },
+    {
+      "id": 21062,
+      "name": "See You at the End"
+    },
+    {
+      "id": 21064,
+      "name": "Mushy Shroomy's Adventures"
+    },
+    {
+      "id": 21065,
+      "name": "Today's Good Luck"
+    },
+    {
+      "id": 22000,
+      "name": "Before the Tutorial Mission Starts"
+    },
+    {
+      "id": 22001,
+      "name": "Hey, Over Here"
+    },
+    {
+      "id": 22002,
+      "name": "For Tomorrow's Journey"
+    },
+    {
+      "id": 22003,
+      "name": "Ninja Record: Sound Hunt"
+    },
+    {
+      "id": 22004,
+      "name": "The Great Cosmic Enterprise"
+    },
+    {
+      "id": 22005,
+      "name": "The Forever Victual"
+    },
+    {
+      "id": 22006,
+      "name": "Fly Into a Pink Tomorrow"
+    },
+    {
+      "id": 22007,
+      "name": "Tomorrow, As One"
+    },
+    {
+      "id": 23000,
+      "name": "Night on the Milky Way"
+    },
+    {
+      "id": 23001,
+      "name": "In the Night"
+    },
+    {
+      "id": 23002,
+      "name": "Something Irreplaceable"
+    },
+    {
+      "id": 23003,
+      "name": "But the Battle Isn't Over"
+    },
+    {
+      "id": 23004,
+      "name": "In the Name of the World"
+    },
+    {
+      "id": 23005,
+      "name": "Moment of Victory"
+    },
+    {
+      "id": 23006,
+      "name": "Patience Is All You Need"
+    },
+    {
+      "id": 23007,
+      "name": "Incessant Rain"
+    },
+    {
+      "id": 23008,
+      "name": "Echoes of the Coffin"
+    },
+    {
+      "id": 23009,
+      "name": "The Unreachable Side"
+    },
+    {
+      "id": 23010,
+      "name": "Before Dawn"
+    },
+    {
+      "id": 23011,
+      "name": "She Already Shut Her Eyes"
+    },
+    {
+      "id": 23012,
+      "name": "Sleep Like the Dead"
+    },
+    {
+      "id": 23013,
+      "name": "Time Waits for No One"
+    },
+    {
+      "id": 23014,
+      "name": "I Shall Be My Own Sword"
+    },
+    {
+      "id": 23015,
+      "name": "Brighter Than the Sun"
+    },
+    {
+      "id": 23016,
+      "name": "Worrisome, Blissful"
+    },
+    {
+      "id": 23017,
+      "name": "Night of Fright"
+    },
+    {
+      "id": 23018,
+      "name": "An Instant Before A Gaze"
+    },
+    {
+      "id": 23019,
+      "name": "Past Self in Mirror"
+    },
+    {
+      "id": 23020,
+      "name": "Baptism of Pure Thought"
+    },
+    {
+      "id": 23021,
+      "name": "Earthly Escapade"
+    },
+    {
+      "id": 23022,
+      "name": "Reforged Remembrance"
+    },
+    {
+      "id": 23023,
+      "name": "Inherently Unjust Destiny"
+    },
+    {
+      "id": 23024,
+      "name": "Along the Passing Shore"
+    },
+    {
+      "id": 23025,
+      "name": "Whereabouts Should Dreams Rest"
+    },
+    {
+      "id": 23026,
+      "name": "Flowing Nightglow"
+    },
+    {
+      "id": 23027,
+      "name": "Sailing Towards a Second Life"
+    },
+    {
+      "id": 23028,
+      "name": "Yet Hope Is Priceless"
+    },
+    {
+      "id": 23029,
+      "name": "Those Many Springs"
+    },
+    {
+      "id": 23030,
+      "name": "Dance at Sunset"
+    },
+    {
+      "id": 23031,
+      "name": "I Venture Forth to Hunt"
+    },
+    {
+      "id": 23032,
+      "name": "Scent Alone Stays True"
+    },
+    {
+      "id": 23033,
+      "name": "Ninjutsu Inscription: Dazzling Evilbreaker"
+    },
+    {
+      "id": 23034,
+      "name": "A Grounded Ascent"
+    },
+    {
+      "id": 23035,
+      "name": "Long Road Leads Home"
+    },
+    {
+      "id": 23036,
+      "name": "Time Woven Into Gold"
+    },
+    {
+      "id": 23037,
+      "name": "Into the Unreachable Veil"
+    },
+    {
+      "id": 23038,
+      "name": "If Time Were a Flower"
+    },
+    {
+      "id": 23039,
+      "name": "Flame of Blood, Blaze My Path"
+    },
+    {
+      "id": 23040,
+      "name": "Make Farewells More Beautiful"
+    },
+    {
+      "id": 23041,
+      "name": "Life Should Be Cast to Flames"
+    },
+    {
+      "id": 23042,
+      "name": "Long May Rainbows Adorn the Sky"
+    },
+    {
+      "id": 23043,
+      "name": "Lies Dance on the Breeze"
+    },
+    {
+      "id": 23044,
+      "name": "Thus Burns the Dawn"
+    },
+    {
+      "id": 23045,
+      "name": "A Thankless Coronation"
+    },
+    {
+      "id": 23046,
+      "name": "The Hell Where Ideals Burn"
+    },
+    {
+      "id": 23047,
+      "name": "Why Does the Ocean Sing"
+    },
+    {
+      "id": 23048,
+      "name": "Epoch Etched in Golden Blood"
+    },
+    {
+      "id": 23049,
+      "name": "To Evernight's Stars"
+    },
+    {
+      "id": 23050,
+      "name": "Never Forget Her Flame"
+    },
+    {
+      "id": 23051,
+      "name": "Though Worlds Apart"
+    },
+    {
+      "id": 23052,
+      "name": "This Love, Forever"
+    },
+    {
+      "id": 23053,
+      "name": "Dazzled by a Flowery World"
+    },
+    {
+      "id": 23054,
+      "name": "When She Decided to See"
+    },
+    {
+      "id": 23056,
+      "name": "The Finale of a Lie"
+    },
+    {
+      "id": 23057,
+      "name": "Welcome to the Cosmic City"
+    },
+    {
+      "id": 23058,
+      "name": "Until the Flowers Bloom Again"
+    },
+    {
+      "id": 24000,
+      "name": "On the Fall of an Aeon"
+    },
+    {
+      "id": 24001,
+      "name": "Cruising in the Stellar Sea"
+    },
+    {
+      "id": 24002,
+      "name": "Texture of Memories"
+    },
+    {
+      "id": 24003,
+      "name": "Solitary Healing"
+    },
+    {
+      "id": 24004,
+      "name": "Eternal Calculus"
+    },
+    {
+      "id": 24005,
+      "name": "Memory's Curtain Never Falls"
+    },
+    {
+      "id": 24006,
+      "name": "Elation Brimming With Blessings"
+    }
+  ]
+}
+
