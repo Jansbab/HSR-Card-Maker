@@ -185,7 +185,7 @@ mihomoForm?.addEventListener('submit', async (e) => {
     setMihomoConfirmation('Searching player...', { type: 'info' });
 
     try {
-        const res = await fetch(`https://api.mihomo.me/sr_info_parsed/${encodeURIComponent(uid)}?lang=en`);
+        const res = await fetch(`/api/mihomo/sr_info_parsed/${encodeURIComponent(uid)}?lang=en`);
         if (!res.ok) {
             setMihomoConfirmation('Player not found.', { type: 'error' });
             showAllCards();
