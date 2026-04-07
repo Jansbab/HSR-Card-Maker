@@ -1,7 +1,21 @@
-﻿const importButton = document.getElementById('import');
+﻿const configImportButton = document.getElementById('configImport');
 const configFileInput = document.getElementById('configFileInput');
-importButton?.addEventListener('click', () => {
+const uidImportButton = document.getElementById('uidImport');
+const uidInput = document.getElementById('uidInput');
+
+configImportButton?.addEventListener('click', () => {
+    showAllCards();
+    uidInput?.style.setProperty('display', 'none');
+    uidInput.value = '';
+    if (mihomoConfirmation) {
+        mihomoConfirmation.textContent = '';
+        mihomoConfirmation.classList.remove('mihomo-confirmation', 'is-success', 'is-error', 'is-info');
+    }
     configFileInput?.click();
+})
+
+uidImportButton?.addEventListener('click', () => {
+    uidInput?.style.setProperty('display', 'block');
 })
 
 configFileInput.addEventListener('change', (event) => {
@@ -79,4 +93,3 @@ function handleImportedConfig(jsonData) {
 
     return avatars;
 }
-

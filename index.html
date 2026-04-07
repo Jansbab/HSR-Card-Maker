@@ -18,13 +18,24 @@
 <main class="app-main">
     <div class="container my-4 d-flex justify-content-center gap-3 controls-bar">
         <input type="file" style="display: none" id="configFileInput" accept=".json,application/json"/>
-        <button id="import" class="button-64">
+        <button id="configImport" class="button-64">
             <span class="text">Import Config</span>
+        </button>
+        <button id="uidImport" class="button-64">
+            <span class="text">Import from UID</span>
         </button>
     </div>
     <div class="container search-wrap">
+        <form id="mihomoForm">
+            <input style="display: none" id="uidInput" class="form-control p-3 mb-3" type="text"
+                   placeholder="Search your in-game UID"
+                   autocomplete="off" aria-autocomplete="list" aria-haspopup="true"
+                   aria-label="Search character by name or ID">
+        </form>
+        <p id="mihomoConfirmation" class="text-white-50"></p>
         <input id="searchInput" class="form-control p-3" type="text" placeholder="Search a character"
-               autocomplete="off" aria-autocomplete="list" aria-haspopup="true" aria-label="Search character by name or ID">
+               autocomplete="off" aria-autocomplete="list" aria-haspopup="true"
+               aria-label="Search character by name or ID">
         <div id="searchResults" class="autocomplete-results" aria-label="Search results"></div>
     </div>
 
@@ -107,6 +118,7 @@
     </small>
 </footer>
 
+<script src="Scripts/mihomo.js"></script>
 <script src="Scripts/relics.js"></script>
 <script src="Scripts/import.js"></script>
 <script src="Scripts/calculation.js"></script>

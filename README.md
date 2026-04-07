@@ -8,9 +8,16 @@ Try the app here: **[hsr-card-maker.vercel.app](https://hsr-card-maker.vercel.ap
 
 ## How to use
 
+### Import from config.json
 1. Upload a config.json with your characters data.
 2. Select or search the character you want to see.
 3. Use the download button to export a PNG image of your character card using the available presets (or take a screenshot).
+
+### Import from UID
+1. Click the Import from UID button.
+2. Enter your UID and click Enter.
+3. Wait for the app to fetch your character data from the API and generate the character cards.
+4. To see more characters, you have to select them in the character list from your in-game profile and log off or wait 5 minutes (Max 8 characters can be fetched using this method).
 
 ## Presets Examples
 **Balanced - Large Screen**
@@ -33,6 +40,7 @@ HSR-Card-Maker/
 ├── Scripts/       # JavaScript files for the app logic
 ├── index.html     # Main web page
 ├── style.css      # Styles for the app
+├── vercel.json    # Vercel deployment configuration
 ├── LICENSE        # AGPL-3.0 license
 └── README.md
 ```
@@ -113,11 +121,10 @@ And here is an example using Welt:
 ### How can I generate a config.json file?
 
 There are external online tools that can generate config.json files and freesr-data.json files, here are some of them:
-- **Relic Builder**: https://relic-builder.vercel.app 
+- **Relic Builder**: https://relic-builder.vercel.app
 - **SRTools**: https://srtools.neonteam.dev
 
 ## Notes
-- **[WIP]** Import your in-game builds using your UID
 - **[WIP]** Compatibility with freesr-data.json files
 - Character stats will probably not be accurate to the in-game stats since currently it does not take in count things like lc passives, relic passives or traces.
 - Characters that are not in the live version **(4.1)** but in the beta version **(4.1.53)** may appear with missing assets and their stats can not be up-to-date until the next live version.

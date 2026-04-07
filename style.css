@@ -205,7 +205,7 @@ body {
     background: none;
 }
 
-#import.button-64 {
+#configImport.button-64 {
     background-image: linear-gradient(144deg, #9a52ff, #6348f6 50%, #2b9eff);
     box-shadow: rgba(96, 87, 255, 0.34) 0 15px 30px -8px;
 }
@@ -219,7 +219,7 @@ body {
     border-color: rgba(72, 220, 164, 0.28);
 }
 
-#import.button-64:hover {
+#configImport.button-64:hover {
     box-shadow: rgba(120, 102, 255, 0.45) 0 18px 34px -8px;
 }
 
@@ -259,6 +259,45 @@ body {
     max-width: 980px;
 }
 
+#mihomoConfirmation {
+    margin: 8px 0 12px;
+}
+
+.mihomo-confirmation {
+    border-radius: 12px;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: linear-gradient(180deg, rgba(29, 22, 48, 0.92), rgba(18, 13, 33, 0.9));
+    color: rgba(240, 233, 255, 0.94);
+    font-size: 0.88rem;
+    line-height: 1.45;
+    box-shadow: 0 8px 22px rgba(7, 5, 14, 0.35);
+}
+
+.mihomo-confirmation strong {
+    color: #f7f2ff;
+}
+
+.mihomo-confirmation.is-info {
+    border-color: rgba(110, 164, 255, 0.38);
+    background: linear-gradient(180deg, rgba(31, 45, 76, 0.92), rgba(21, 28, 49, 0.9));
+    box-shadow: 0 0 0 1px rgba(110, 164, 255, 0.12) inset, 0 8px 22px rgba(9, 15, 29, 0.36);
+}
+
+.mihomo-confirmation.is-success {
+    border-color: rgba(70, 206, 160, 0.46);
+    background: linear-gradient(180deg, rgba(22, 56, 48, 0.94), rgba(16, 36, 33, 0.92));
+    box-shadow: 0 0 0 1px rgba(70, 206, 160, 0.12) inset, 0 8px 22px rgba(8, 19, 16, 0.36);
+}
+
+.mihomo-confirmation.is-error {
+    border-color: rgba(255, 129, 134, 0.5);
+    background: linear-gradient(180deg, rgba(70, 26, 40, 0.94), rgba(43, 18, 29, 0.92));
+    color: rgba(255, 231, 234, 0.98);
+    box-shadow: 0 0 0 1px rgba(255, 129, 134, 0.13) inset, 0 8px 22px rgba(28, 10, 16, 0.38);
+}
+
+#uidInput,
 #searchInput {
     border-radius: 14px;
     border: 1px solid var(--border-soft);
@@ -267,8 +306,16 @@ body {
     box-shadow: 0 10px 24px rgba(8,6,15,0.38);
 }
 
+#uidInput::placeholder,
 #searchInput::placeholder {
     color: rgba(255,255,255,0.52);
+}
+
+#uidInput:focus {
+    border-color: rgb(57, 255, 35, 0.45);
+    box-shadow: 0 0 0 0.2rem rgb(57, 255, 35, 0.16), 0 10px 24px rgba(8,6,15,0.38);
+    background: linear-gradient(180deg, rgba(30,24,49,0.98), rgba(20,15,33,0.95));
+    color: var(--white-color);
 }
 
 #searchInput:focus {
